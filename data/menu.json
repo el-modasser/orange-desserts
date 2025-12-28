@@ -1,0 +1,1827 @@
+{
+  "waffles": {
+    "heroImage": "",
+    "name": "Waffles",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Creamy Caramel Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle, velvety whipped cream, rich caramel drizzle, biscuit crumble. Pure indulgence in every bite.",
+        "description_ar": "",
+        "price": 525,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "c.png"
+      },
+      {
+        "name": "Creamy Strawberry Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle, silky cream cloud, ripe strawberries, strawberry sauce drizzle. Light, vibrant, and irresistible.",
+        "description_ar": "",
+        "price": 525,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "s.png"
+      },
+      {
+        "name": "Creamy Mix Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle, velvety whipped cream, rich caramel drizzle with biscuit crumble on one side, fresh strawberries with strawberry sauce on the other. The best of both worlds.",
+        "description_ar": "",
+        "price": 525,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "m.png"
+      },
+      {
+        "name": "Fruit Waffle",
+        "name_ar": "",
+        "description": "Golden waffle with Nutella, fresh fruits, and pistachios—sweet, crisp, and chocolatery.",
+        "description_ar": "",
+        "price": 525,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "fruit-waffle.png"
+      },
+      {
+        "name": "Chocolate Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle, Nutella spread, chocolate drizzle, pistachio crunch. Pure chocolate bliss.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "chocolate-waffle.png"
+      },
+      {
+        "name": "Lotus Waffle",
+        "name_ar": "",
+        "description": "Warm waffle, creamy Lotus spread, white chocolate drizzle, and crunchy Lotus biscuit topping.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "w-l.png"
+      },
+      {
+        "name": "Oreo Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle with Nutella, chocolate drizzle, and crumbled Oreos for a rich, crunchy finish.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "w-o.png"
+      },
+      {
+        "name": "Pistachio Waffle",
+        "name_ar": "",
+        "description": "Fluffy waffle with pistachio spread, white chocolate drizzle, and crunchy pistachios. A nutty, sweet delight.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "w-p.png"
+      }
+    ]
+  },
+  "stick_waffles": {
+    "heroImage": "",
+    "name": "Stick Waffles",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Lotus Stick Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle stick with Lotus spread, white chocolate, and crunchy Lotus biscuit topping.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "stick-l.png"
+      },
+      {
+        "name": "Oreo Stick Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle stick with Nutella, chocolate drizzle, and Oreo crumble. The ultimate Oreo treat.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "stick-o.png"
+      },
+      {
+        "name": "Pistachio Stick Waffle",
+        "name_ar": "",
+        "description": "Crispy waffle stick with pistachio sauce, white chocolate, and crunchy pistachios. Pure indulgence.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "stick-p.png"
+      }
+    ]
+  },
+  "crepes": {
+    "heroImage": "",
+    "name": "Crepes",
+    "name_ar": "",
+    "items": [
+      {
+        "name": " Crepe Kunafa",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 560,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "orange.png"
+      },
+      {
+        "name": "Orange Crepe",
+        "name_ar": "",
+        "description": "Warm crepe with banana, whipped cream, Nutella, and vanilla gelato, drizzled with white & dark chocolate, topped with pistachios.",
+        "description_ar": "",
+        "price": 560,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "orange.png"
+      },
+      {
+        "name": "Orange Roll",
+        "name_ar": "",
+        "description": "Fruit & cream-filled crepe with Nutella, white & dark chocolate, topped with pistachios. Sweet and refreshing.",
+        "description_ar": "",
+        "price": 525,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "roll.png"
+      },
+      {
+        "name": "Fruit Crepe",
+        "name_ar": "",
+        "description": "Nutella-filled crepe with white & dark chocolate, topped with fresh seasonal fruits. Sweet, fruity perfection.",
+        "description_ar": "",
+        "price": 490,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "fruit.png"
+      },
+      {
+        "name": "Chocolate Crepe",
+        "name_ar": "",
+        "description": "Nutella-filled crepe with white & dark chocolate, topped with pistachios. Pure chocolate bliss.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "choco.png"
+      },
+      {
+        "name": "Lotus Crepe",
+        "name_ar": "",
+        "description": "Lotus-filled crepe with white chocolate drizzle, topped with Lotus biscuits. A Biscoff fan's favorite.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "lotus.png"
+      },
+      {
+        "name": "Oreo Crepe",
+        "name_ar": "",
+        "description": "Nutella-filled crepe with white & dark chocolate, topped with Oreos. An Oreo lover's dream.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "oreo.png"
+      },
+      {
+        "name": "Pistachio Crepe",
+        "name_ar": "",
+        "description": "Pistachio-filled crepe with white chocolate drizzle, topped with crunchy pistachios. A pistachio lover's treat.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "pestachio.png"
+      }
+    ]
+  },
+  "fettuccine": {
+    "heroImage": "",
+    "name": "Fettuccine",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Lotus Fettuccine",
+        "name_ar": "",
+        "description": "Crepe fettuccine tossed in Lotus spread, white chocolate, and crushed Lotus biscuits",
+        "description_ar": "",
+        "price": 455,
+        "image": "lotus-fettuccine.png"
+      },
+      {
+        "name": "Oreo Fettuccine",
+        "name_ar": "",
+        "description": "Crepe fettuccine with Nutella, white & dark chocolate, and crushed Oreos",
+        "description_ar": "",
+        "price": 455,
+        "image": "oreo-fettuccine.png"
+      },
+      {
+        "name": "Pistachio Fettuccine",
+        "name_ar": "",
+        "description": "Crepe fettuccine with pistachio sauce, white chocolate, and crushed pistachios",
+        "description_ar": "",
+        "price": 455,
+        "image": "pistachio-fettuccine.png"
+      }
+    ]
+  },
+  "pop_pancakes": {
+    "heroImage": "",
+    "name": "Pop Pancakes",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Lotus Pop Pancakes",
+        "name_ar": "",
+        "description": "Pop pancakes with creamy Lotus spread, topped with crunchy Lotus biscuits. A crunchy delight.",
+        "description_ar": "",
+        "price": 385,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "l.png"
+      },
+      {
+        "name": "Oreo Pop Pancakes",
+        "name_ar": "",
+        "description": "Pop pancakes with Nutella, white & dark chocolate drizzle, topped with Oreo biscuits. A fun cookies-and-cream bite.",
+        "description_ar": "",
+        "price": 385,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "o.png"
+      },
+      {
+        "name": "Pistachio Pop Pancakes",
+        "name_ar": "",
+        "description": "Pop pancakes with pistachio spread, white chocolate drizzle, and pistachio biscuits. Nutty, sweet bites.",
+        "description_ar": "",
+        "price": 385,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "p.png"
+      }
+    ]
+  },
+  "mini_pancakes": {
+    "heroImage": "",
+    "name": "Mini Pancakes",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Lotus Mini Pancakes",
+        "name_ar": "",
+        "description": "Mini pancakes with creamy Lotus spread, topped with crunchy Lotus biscuits. Perfectly crunchy.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "l.png"
+      },
+      {
+        "name": "Chocolate Mini Pancakes",
+        "name_ar": "",
+        "description": "Mini pancakes with Nutella, white & dark chocolate, and crunchy pistachios. A rich, satisfying treat.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "c.png"
+      },
+      {
+        "name": "Pistachio Mini Pancakes",
+        "name_ar": "",
+        "description": "Mini pancakes with pistachio spread, white chocolate drizzle, and crunchy pistachios. Creamy, nutty indulgence.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "p.png"
+      },
+      {
+        "name": "Fruit Mini Pancakes",
+        "name_ar": "",
+        "description": "Mini pancakes with Nutella, chocolate, fresh fruits, and pistachios. Sweet and fresh.",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "f.png"
+      },
+      {
+        "name": "Oreo Mini Pancakes",
+        "name_ar": "",
+        "description": "Mini pancakes with Nutella, white & dark chocolate drizzle, topped with Oreo biscuits.",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "o.png"
+      }
+    ]
+  },
+  "sushi_rolls": {
+    "heroImage": "",
+    "name": "Sushi Rolls",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Lotus Sushi Rolls",
+        "name_ar": "",
+        "description": "Soft crepes rolled with Lotus biscuits and creamy white chocolate, served with a cup of Lotus chocolate sauce for dipping. Fun, rich, and totally indulgent!",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "l.png"
+      },
+      {
+        "name": "Oreo Sushi Rolls",
+        "name_ar": "",
+        "description": "Soft crepes rolled with Oreo biscuits and creamy white chocolate, served with a cup of Nutella chocolate sauce for dipping. A fun, delicious treat!",
+        "description_ar": "",
+        "price": 420,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "c.png"
+      },
+      {
+        "name": "Mixed Sushi Rolls",
+        "name_ar": "",
+        "description": "Soft crepes rolled with a fusion of Oreo and Lotus biscuits and creamy white chocolate, served with a cup of Nutella and Lotus chocolate sauces for dipping. Rich, playful, and unforgettable!",
+        "description_ar": "",
+        "price": 455,
+        "modifiers": {
+          "add_ons": {
+            "name": "Add Ons",
+            "name_ar": "",
+            "required": false,
+            "maxSelections": 4,
+            "options": [
+              {
+                "name": "Sauce",
+                "name_ar": "",
+                "price": 100
+              },
+              {
+                "name": "Mixed Sauces",
+                "name_ar": "",
+                "price": 150
+              },
+              {
+                "name": "Gelato",
+                "name_ar": "",
+                "price": 200
+              },
+              {
+                "name": "Cream",
+                "name_ar": "",
+                "price": 100
+              }
+            ]
+          }
+        },
+        "image": "m.png"
+      }
+    ]
+  },
+  "treat_cups": {
+    "heroImage": "",
+    "name": "Treat Cups",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Brownie Cup",
+        "name_ar": "",
+        "description": "Fudgy brownies and juicy strawberries topped with rich Nutella and white chocolate sauce, layered with whipped cream and finished with roasted pistachios. A fruity, nutty, and chocolatley delight in every bite.",
+        "description_ar": "",
+        "price": 385,
+        "image": "b.png"
+      },
+      {
+        "name": "Dubai Cup",
+        "name_ar": "",
+        "description": "A Middle Eastern-inspired dream layered with Kunafa with our signature pistachio sauce, fresh strawberries, and cream. Drizzled generously with Nutella, this cup delivers a rich, creamy bite with a fruity twist — indulgence redefined.",
+        "description_ar": "",
+        "price": 420,
+        "image": "d.png"
+      },
+      {
+        "name": "Orange Cup",
+        "name_ar": "",
+        "description": "A tropical burst in every layer — seasonal fruits drizzled with rich Nutella sauce, layered with smooth chocolate mousse, Nutella kunafa, and cream. It's the perfect blend of fresh, creamy, and indulgent. A colorful escape in a cup.",
+        "description_ar": "",
+        "price": 350,
+        "image": "o.png"
+      }
+    ]
+  },
+  "royal_fruit_salads": {
+    "heroImage": "",
+    "name": "Royal Fruit Salads",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Nutella Salad",
+        "name_ar": "",
+        "description": "Fruit salad with fresh seasonal fruits layered with Nutella, sweet milk, chocolate gelato, and whipped cream. Fruity, creamy bliss.",
+        "description_ar": "",
+        "price": 490,
+        "image": "n.png"
+      },
+      {
+        "name": "Orange Salad",
+        "name_ar": "",
+        "description": "Fresh seasonal fruits topped with honey, sweet milk, nuts, vanilla gelato, and a swirl of whipped cream. Refreshing and indulgent.",
+        "description_ar": "",
+        "price": 490,
+        "image": "r.png"
+      },
+      {
+        "name": "Fruit Salad",
+        "name_ar": "",
+        "description": "Fresh seasonal fruits with honey, sweet milk, pistachios, and vanilla gelato. Refreshing indulgence.",
+        "description_ar": "",
+        "price": 455,
+        "image": "f.png"
+      },
+      {
+        "name": "Oreo Salad",
+        "name_ar": "",
+        "description": "Fresh seasonal fruits topped with Oreo shake, Nutella, sweet milk, whipped cream, and chocolate gelato. Cookies-and-cream bliss.",
+        "description_ar": "",
+        "price": 490,
+        "image": "o.png"
+      }
+    ]
+  },
+  "gelato": {
+    "heroImage": "",
+    "name": "Gelato",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Vanilla",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "v.png"
+      },
+      {
+        "name": "Bubblegum",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "b.png"
+      },
+      {
+        "name": "Chocolate",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "c.png"
+      },
+      {
+        "name": "Coconut",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "n.png"
+      },
+      {
+        "name": "Strawberry",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "s.png"
+      },
+      {
+        "name": "Lemon",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "l.png"
+      },
+      {
+        "name": "Hazelnut",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "h.png"
+      },
+      {
+        "name": "Pistachio",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "p.png"
+      },
+      {
+        "name": "Lotus",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 140,
+        "options": [
+          {
+            "name": "Small",
+            "name_ar": "",
+            "price": 140
+          },
+          {
+            "name": "Medium",
+            "name_ar": "",
+            "price": 210
+          }
+        ],
+        "modifiers": {},
+        "image": "lotus.png"
+      }
+    ]
+  },
+  "matcha": {
+    "heroImage": "",
+    "name": "Matcha",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Strawberry Matcha",
+        "name_ar": "",
+        "description": "Premium matcha blended with sweet strawberry flavor",
+        "description_ar": "",
+        "price": 385,
+        "image": "strawberry-matcha.png"
+      },
+      {
+        "name": "Vanilla Matcha",
+        "name_ar": "",
+        "description": "Smooth matcha with creamy vanilla notes",
+        "description_ar": "",
+        "price": 385,
+        "image": "vanilla-matcha.png"
+      },
+      {
+        "name": "Hazelnut Matcha",
+        "name_ar": "",
+        "description": "Rich matcha with nutty hazelnut flavor",
+        "description_ar": "",
+        "price": 385,
+        "image": "hazelnut-matcha.png"
+      },
+      {
+        "name": "Plain Matcha",
+        "name_ar": "",
+        "description": "Pure, traditional matcha for authentic flavor",
+        "description_ar": "",
+        "price": 315,
+        "image": "plain-matcha.png"
+      }
+    ]
+  },
+  "milkshakes": {
+    "heroImage": "",
+    "name": "Milkshakes",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Creamy Shake",
+        "name_ar": "",
+        "description": "Creamy Cake Milkshake blended to perfection, topped with pistachio sprinkles. Smooth, indulgent, and unforgettable.",
+        "description_ar": "",
+        "price": 385,
+        "image": "c.png"
+      },
+      {
+        "name": "Lotus Shake",
+        "name_ar": "",
+        "description": "Creamy Lotus shake topped with whipped cream and Lotus drizzle. Sweet, spiced perfection.",
+        "description_ar": "",
+        "price": 385,
+        "image": "l.png"
+      },
+      {
+        "name": "Pistachio Shake",
+        "name_ar": "",
+        "description": "Rich pistachio shake topped with whipped cream and crunchy pistachios. Nutty and smooth.",
+        "description_ar": "",
+        "price": 385,
+        "image": "p.png"
+      },
+      {
+        "name": "Oreo Shake",
+        "name_ar": "",
+        "description": "Creamy Oreo shake topped with whipped cream and crushed Oreos. Classic cookies-and-cream bliss.",
+        "description_ar": "",
+        "price": 385,
+        "image": "o.png"
+      }
+    ]
+  },
+  "avocado_royale": {
+    "heroImage": "",
+    "name": "Avocado Royale",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Avocado Pure",
+        "name_ar": "",
+        "description": "A creamy and refreshing avocado smoothie made with ripe avocados, sweet milk, and a touch of honey. Simple, smooth, and deeply satisfying.",
+        "description_ar": "",
+        "price": 400,
+        "image": "p.png"
+      },
+      {
+        "name": "Gelato Avocado Royale",
+        "name_ar": "",
+        "description": "A rich and indulgent avocado smoothie made with sweet milk and honey, blended with velvety gelato and cream, then topped with crunchy nuts and sweet dates. A luxurious treat with a nutty finish.",
+        "description_ar": "",
+        "price": 600,
+        "image": "g.png"
+      },
+      {
+        "name": "Avocado Energy Mix",
+        "name_ar": "",
+        "description": "A creamy avocado smoothie powered by sweet milk and honey, then boosted with crunchy nuts for added texture and energy. A refreshing, nourishing blend with a satisfying crunch.",
+        "description_ar": "",
+        "price": 550,
+        "image": "e.png"
+      }
+    ]
+  },
+  "smoothies": {
+    "heroImage": "",
+    "name": "Smoothies",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Banana and Milk",
+        "name_ar": "",
+        "description": "Creamy banana smoothie with ripe bananas and chilled milk. Naturally sweet and refreshing.",
+        "description_ar": "",
+        "price": 210,
+        "image": "b.png"
+      },
+      {
+        "name": "Fruit Cocktail",
+        "name_ar": "",
+        "description": "Strawberry, kiwi, pineapple & banana smoothie with creamy milk. Fruity, tropical, and refreshing.",
+        "description_ar": "",
+        "price": 280,
+        "image": "f.png"
+      },
+      {
+        "name": "Banana, Milk and Chocolate",
+        "name_ar": "",
+        "description": "Banana chocolate smoothie with ripe bananas, milk, and rich chocolate. Creamy, sweet, and indulgent.",
+        "description_ar": "",
+        "price": 245,
+        "image": "c.png"
+      },
+      {
+        "name": "Bananas, Milk and Dates",
+        "name_ar": "",
+        "description": "Banana date smoothie with creamy milk and rich dates. Naturally sweet, smooth, and satisfying.",
+        "description_ar": "",
+        "price": 245,
+        "image": "d.png"
+      },
+      {
+        "name": "Banana, Milk and Strawberry",
+        "name_ar": "",
+        "description": "Strawberry banana smoothie with ripe bananas, fresh strawberries, and creamy milk. Light, fruity, and refreshing.",
+        "description_ar": "",
+        "price": 245,
+        "image": "s.png"
+      },
+      {
+        "name": "Banana, Milk, Cream, Honey and Nuts",
+        "name_ar": "",
+        "description": "Banana smoothie with milk, honey, fresh cream, and pistachios. Sweet, and crunchy.",
+        "description_ar": "",
+        "price": 315,
+        "image": "h.png"
+      }
+    ]
+  },
+  "boba_mojitos": {
+    "heroImage": "",
+    "name": "Boba Mojitos",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Nectaberry Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with nectar berry swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "nectar.png"
+      },
+      {
+        "name": "Blue Ocean Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with blue ocean swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "blue.png"
+      },
+      {
+        "name": "Peach Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with peach swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "peach.png"
+      },
+      {
+        "name": "Mango Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with mango swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "m.png"
+      },
+      {
+        "name": "Passion Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with passion swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "s.png"
+      },
+      {
+        "name": "Pure Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with lime swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "p.png"
+      },
+      {
+        "name": "Strawberry Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with strawberry swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "s.png"
+      },
+      {
+        "name": "Ocean Mojito",
+        "name_ar": "",
+        "description": "Mint-citrus cooler with Blueberry-pomegranate swirl and bursting boba. Juicy, refreshing sips.",
+        "description_ar": "",
+        "price": 350,
+        "image": "o.png"
+      }
+    ]
+  },
+  "juices": {
+    "heroImage": "",
+    "name": "Juices",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Carrot & Lime",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 210,
+        "image": "c.png"
+      },
+      {
+        "name": "Beetroot",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 210,
+        "image": "b.png"
+      },
+      {
+        "name": "Mango & Passion",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 210,
+        "image": "p.png"
+      },
+      {
+        "name": "Orange",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 245
+      },
+      {
+        "name": "Kiwi & Pineapple",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 210
+      },
+      {
+        "name": "Water",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 91
+      }
+    ]
+  },
+  "cold_coffee": {
+    "heroImage": "",
+    "name": "Cold Coffee",
+    "name_ar": "",
+    "items": [
+      {
+        "name": "Caramel Frappe",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 315,
+        "image": "c.png"
+      },
+      {
+        "name": "Dark Mocha Frappe",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 315,
+        "image": "d.png"
+      },
+      {
+        "name": "White Mocha Frappe",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 315,
+        "image": "w.png"
+      },
+      {
+        "name": "Iced Latte",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 210
+      },
+      {
+        "name": "Iced Caramel Latte",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 245
+      },
+      {
+        "name": "Iced Dark Mocha Latte",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 245
+      },
+      {
+        "name": "Iced White Mocha Latte",
+        "name_ar": "",
+        "description": "",
+        "description_ar": "",
+        "price": 245
+      }
+    ]
+  }
+}
