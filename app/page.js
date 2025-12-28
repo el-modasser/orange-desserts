@@ -550,8 +550,8 @@ const isOptionPriceDifferent = (item, selectedOption) => {
   return optionPrice !== basePrice;
 };
 
-// WhatsApp message composition function
-const composeWhatsAppMessage = (cart, orderNotes, language, currency, selectedBranch, branches) => {
+// WhatsApp message composition function (Updated to include modifiers)
+const composeWhatsAppMessage = (cart, orderNotes, language, currency, selectedBranch, branches, menuData) => {
   const { whatsappMessage } = BRAND_CONFIG.contact;
   const symbol = language === 'en' ? currency.symbolEn : currency.symbol;
   const branch = branches.find(b => b.id === selectedBranch);
@@ -575,6 +575,45 @@ const composeWhatsAppMessage = (cart, orderNotes, language, currency, selectedBr
     message += `${index + 1}. ${itemName}\n`;
     message += `   Quantity: ${item.quantity || 1}\n`;
     message += `   Price: ${symbol} ${itemPrice.toLocaleString(currency.format)} each\n`;
+
+    // Add modifiers to the message
+    if (item.selectedModifiers && Object.keys(item.selectedModifiers).length > 0) {
+      message += `   Modifiers:\n`;
+
+      // Look up the original item in the menuData to get modifier details
+      let originalItem = null;
+      for (const category in menuData) {
+        const found = menuData[category].items?.find(it => it.name === item.name);
+        if (found) {
+          originalItem = found;
+          break;
+        }
+      }
+
+      if (originalItem && originalItem.modifiers) {
+        Object.entries(item.selectedModifiers).forEach(([modifierGroupName, selectedOptionNames]) => {
+          const modifierGroup = originalItem.modifiers[modifierGroupName];
+          if (modifierGroup && modifierGroup.options && selectedOptionNames.length > 0) {
+            const groupName = getText(modifierGroup, 'name', language);
+            message += `     ${groupName}:\n`;
+
+            selectedOptionNames.forEach(optionName => {
+              const option = modifierGroup.options.find(opt => opt.name === optionName);
+              if (option) {
+                const optionText = getText(option, 'name', language);
+                const optionPrice = option.price;
+                message += `       - ${optionText}`;
+                if (optionPrice > 0) {
+                  message += ` (+${symbol} ${optionPrice.toLocaleString(currency.format)})`;
+                }
+                message += `\n`;
+              }
+            });
+          }
+        });
+      }
+    }
+
     message += `   Total: ${symbol} ${itemTotal.toLocaleString(currency.format)}\n\n`;
   });
 
@@ -977,8 +1016,8 @@ export default function MenuPage() {
     return itemModifiers[itemName] || {};
   };
 
-  // Cart functions
-  const addToCart = (item, quantity = 1, selectedOption = null, selectedModifiers = {}) => {
+  // Cart functions (Updated to include categoryId)
+  const addToCart = (item, quantity = 1, selectedOption = null, selectedModifiers = {}, categoryId) => {
     if (!features.enableCart || !item || !isOrderMode) return;
 
     const cartPrice = getItemPrice(item, selectedOption, selectedModifiers);
@@ -1000,6 +1039,7 @@ export default function MenuPage() {
         quantity,
         selectedOption,
         selectedModifiers,
+        categoryId,
         displayName: getItemDisplayName(item, selectedOption, selectedModifiers, language)
       }];
     });
@@ -1056,13 +1096,13 @@ export default function MenuPage() {
     return contact.whatsappNumber;
   };
 
-  // WhatsApp Order Function
+  // WhatsApp Order Function (Updated to include menuData)
   const handleWhatsAppOrder = () => {
     if (!features.enableWhatsAppOrder || cart.length === 0 || !isOrderMode) return;
 
     setIsWhatsAppSending(true);
 
-    const message = composeWhatsAppMessage(cart, orderNotes, language, currency, selectedBranch, branches);
+    const message = composeWhatsAppMessage(cart, orderNotes, language, currency, selectedBranch, branches, menuData);
     const phoneNumber = getWhatsAppNumber().replace(/\s/g, '');
     const whatsappUrl = `https://wa.me/${phoneNumber.replace('+', '')}?text=${message}`;
 
@@ -1394,7 +1434,7 @@ export default function MenuPage() {
                                 <button
                                   onClick={(e) => {
                                     e.stopPropagation(); // Fix: Prevent modal from opening
-                                    addToCart(item, 1, selectedOption, selectedModifiers);
+                                    addToCart(item, 1, selectedOption, selectedModifiers, categoryId);
                                   }}
                                   style={quantityButtonStyles}
                                 >
@@ -1908,7 +1948,7 @@ export default function MenuPage() {
                   <motion.button
                     onClick={() => {
                       const selectedModifiers = getSelectedModifiers(selectedItem.name);
-                      addToCart(selectedItem, 1, selectedItemOption, selectedModifiers);
+                      addToCart(selectedItem, 1, selectedItemOption, selectedModifiers, selectedItemCategory);
                       setIsItemModalOpen(false);
                     }}
                     style={addToCartButtonStyles}
